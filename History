@@ -1,0 +1,33 @@
+2021-12-28
+    add function to collect init and iteration data, respectively.
+    add function to collect different data (such as differently initial structure or scale) from init data. 
+
+2021-12-26:
+    add function to perform dp test for individual system by calling deepmd-kit interface, and then plot various figure.
+
+2021-12-24:
+    add function to remove the traj dir in model devi task, main menu 1 and sub menu 100, taipinghu
+
+2021-12-21:
+    add function to calculate trust level in dpgen init data and iteration, main menu 1 and sub menu 3, 4, taipinghu
+    add function to sort atom name by calling dpdata, main menu 9 and sub menu 100, taipinghu
+
+2021-12-19:
+    add function to distinguish different temperatures in 02.fp calculations, main menu 9 and sub menu 99, taipinghu
+    plot energy comparison figure between DP and DFT with different temperatures are considered
+
+2021-12-18:
+    add code to generate anti-defect structure based on POSCAR file by calling dpdata module.
+
+2021-12-17:
+    add cost calculation scripts in main_menu_1, those codes are adopted from Fuzhi Dai. 
+    change the output format in print three ratio funciton. 
+
+2021-12-11:
+    add function to print three ratio (accurate, candidate, failed) in dpgen iteration Main menu 1 by Taiping Hu.
+    add template function in print max force distribution Main menu 1 by Taiping Hu.
+
+2021-12-11: Re-constrcut code structure
+
+2021-12-08: Create DPAnalysis Project
+    add five function for dp test post-analysis in main function 2.
